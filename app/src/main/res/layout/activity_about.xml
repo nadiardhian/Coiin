@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.example.com.coin.com.example.com.coin.Informasi">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/kampusImage"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/logo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Deskripsi"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="8dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/kampusSekilas"
+            android:layout_width="wrap_content"
+            android:text="Bandung Coin merupakan aplikasi mobile berbasis android yang memungkinkan pengguna untuk mengetahui berbagai jenis informasi yang berkaitan dengan perguruan tinggi khususnya di regional Bandung. Aplikasi ini cukup mudah digunakan dan memuat informasi yang cukup lengkap. Aplikasi ini kami buat dengan tujuan untuk mengerjakan tugas Mata Kuliah Rekayasa Perangkat Lunak."
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Alamat"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/kampusAlamat"
+            android:layout_marginLeft="10dp"
+            android:text="Jl. Telekomunikasi No. 01, Terusan Buah Batu, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:text="E-mail"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/kampusWebsite"
+            android:layout_marginLeft="10dp"
+            android:text="coin.rpl@gmail.com"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:textStyle="bold"
+            android:text="Copyright 2018, Bandung Coin"/>
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

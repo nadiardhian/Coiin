@@ -1,0 +1,183 @@
+{
+  "project_info": {
+    "project_number": "574334589203",
+    "firebase_url": "https://coin-20994.firebaseio.com",
+    "project_id": "coin-20994",
+    "storage_bucket": "coin-20994.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574334589203:android:7afd8fb1a4f9ef2f",
+        "android_client_info": {
+          "package_name": "android.example.com.coin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574334589203-tmu1ht2dh2nk5rmo7qcpkpodpqp31gmb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.com.coin",
+            "certificate_hash": "6226031bfd3ef1b698540c579be9f229f6b7d95e"
+          }
+        },
+        {
+          "client_id": "574334589203-1go7rhp64ksiiltvg0c9uv51ghq6ecig.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.com.coin",
+            "certificate_hash": "7e2abb24ce52633e1777795ec13fdd7afa4dfe1d"
+          }
+        },
+        {
+          "client_id": "574334589203-36m7hrs1grjuta7rp4j5i7aahp6tgcp4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.com.coin",
+            "certificate_hash": "ad25aa47f7e71d66ddb03024903f13fb5478bf73"
+          }
+        },
+        {
+          "client_id": "574334589203-aafh77t716v526ig5bjgp827014cvcnc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.com.coin",
+            "certificate_hash": "9f21093dea7856ae1e779b3aff4fed2d574d36cf"
+          }
+        },
+        {
+          "client_id": "574334589203-4g0vboepti60fbd433nb6nn2p70pqto7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.com.coin",
+            "certificate_hash": "b3cc80184f357558923eb28a0b41bf71239c1cc5"
+          }
+        },
+        {
+          "client_id": "574334589203-87gcm9o4npjs9kke6nh940bdqd64j430.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPBGfx2KAi6wue2LB8tj8oeaJ_slcVJ4w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574334589203-87gcm9o4npjs9kke6nh940bdqd64j430.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574334589203:android:2180a10a06e84b47",
+        "android_client_info": {
+          "package_name": "com.apps.bandung.bandungcoin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574334589203-rjg3u3nk4g23ptf20c3u5gnaehqj45eh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apps.bandung.bandungcoin",
+            "certificate_hash": "9f21093dea7856ae1e779b3aff4fed2d574d36cf"
+          }
+        },
+        {
+          "client_id": "574334589203-2dirufa7ukasko68jmlrtgdnt8rgv2ob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apps.bandung.bandungcoin",
+            "certificate_hash": "88a9811e94b4c29143ec65a2c4a5e42ddf160481"
+          }
+        },
+        {
+          "client_id": "574334589203-87gcm9o4npjs9kke6nh940bdqd64j430.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPBGfx2KAi6wue2LB8tj8oeaJ_slcVJ4w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574334589203-87gcm9o4npjs9kke6nh940bdqd64j430.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574334589203:android:ceb6c1e0f7f8d7b6",
+        "android_client_info": {
+          "package_name": "com.apps.bandung.coin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574334589203-io9aqm5hejeeg997smop9lkq0o0slb6l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apps.bandung.coin",
+            "certificate_hash": "6226031bfd3ef1b698540c579be9f229f6b7d95e"
+          }
+        },
+        {
+          "client_id": "574334589203-87gcm9o4npjs9kke6nh940bdqd64j430.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPBGfx2KAi6wue2LB8tj8oeaJ_slcVJ4w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574334589203-87gcm9o4npjs9kke6nh940bdqd64j430.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

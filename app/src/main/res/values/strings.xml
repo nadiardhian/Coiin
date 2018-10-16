@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Coin</string>
+    <string name="post_desc">Telah dibuka pendaftaran pada jalur mandiri sampai dengan tanggal 12 Agustus 2018 Kunjungi Link: http://usm.itb.ac.id</string>
+    <string name="facebook_app_id">362195587859109</string>
+    <string name="fb_login_protocol_scheme">fb362195587859109</string>
+    <string-array name="status_array">
+        <item>Siswa</item>
+        <item>Mahasiswa</item>
+        <item>Alumni</item>
+    </string-array>
+
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="simpan_kembali"><![CDATA[SIMPAN & KEMBALI]]></string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+</resources>

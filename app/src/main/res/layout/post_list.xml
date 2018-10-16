@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/post_image"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/logoitb"/>
+
+            <TextView
+                android:id="@+id/post_nama"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:text="Institut Teknologi Bandung"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/post_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="15sp"
+            android:text="24 Maret 2018"/>
+
+
+        <TextView
+            android:id="@+id/post_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginLeft="5dp"
+            android:text="Telah dibuka pendaftaran pada jalur mandiri sampai dengan tanggal 12 Agustus 2018 Kunjungi Link: http://usm.itb.ac.id"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

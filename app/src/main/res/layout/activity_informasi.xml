@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.example.com.coin.com.example.com.coin.Informasi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/kampusImage"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/gambaritb"/>
+        <TextView
+            android:id="@+id/kampusNama"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Institut Teknologi Bandung"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Sekilas"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/kampusSekilas"
+            android:layout_width="wrap_content"
+            android:text="The Bandung Institute of Technology or Institute of Technology, Bandung is a state, coeducational research university located in Bandung, Indonesia. Established in 1920, ITB is the oldest technology-oriented university in Indonesia"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Alamat"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/kampusAlamat"
+            android:layout_marginLeft="10dp"
+            android:text="Jl. Ganesha No.10, Lb. Siliwangi, Coblong, Kota Bandung, Jawa Barat 40132"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:text="Website"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/kampusWebsite"
+            android:layout_marginLeft="10dp"
+            android:text="https://www.itb.ac.id/"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

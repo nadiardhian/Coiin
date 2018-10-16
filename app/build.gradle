@@ -1,0 +1,73 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        Coin {
+            keyAlias 'TelkomUniversity'
+            keyPassword 'telkom'
+            //storeFile file('D:/Kuliah/Semester 6/RPL/File Tubes/k/Coin/Coin.jks')
+            storePassword 'telkom'
+        }
+    }
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.apps.bandung.bandungcoin"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 2
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildscript {
+        repositories {
+            mavenCentral()
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.google.firebase:firebase-storage:11.6.0'
+    implementation 'com.google.firebase:firebase-database:11.6.0'
+    implementation 'com.google.firebase:firebase-messaging:11.6.0'
+    implementation 'com.google.android.gms:play-services:11.6.0'
+    implementation 'com.google.firebase:firebase-auth:11.6.0'
+    implementation 'com.google.android.gms:play-services-auth:11.6.0'
+    implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
+    compile 'com.google.firebase:firebase-auth:11.6.0'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.github.bumptech.glide:glide:4.3.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.3.1'
+    //noinspection GradleCompatible
+    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+    compile 'com.theartofdev.edmodo:android-image-cropper:2.5.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.github.d-max:spots-dialog:0.7@aar'
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
+    compile 'com.android.support:cardview-v7:26.1.0'
+    compile 'com.github.MdFarhanRaja:SearchableSpinner:1.9'
+    compile 'com.firebaseui:firebase-ui-database:0.4.0'
+    implementation 'com.android.support:design:26.1.0'
+    compile 'com.thoughtbot:expandablerecyclerview:1.3'
+    compile 'com.android.volley:volley:1.0.0'
+}
+
+
+
+
+
+
+
+
+apply plugin: 'com.google.gms.google-services'
