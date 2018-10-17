@@ -67,13 +67,5 @@
         android:layout_alignParentEnd="true"
         android:layout_toEndOf="@+id/textView" />
 
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/icon_rain"
-        android:id="@+id/imageView"
-        android:layout_below="@+id/textView2"
-        android:layout_alignEnd="@+id/textView5"
-        android:layout_marginTop="27dp" />
 
 </RelativeLayout>

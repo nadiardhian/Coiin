@@ -131,6 +131,11 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(new Intent(MainActivity.this, Weather.class));
                         break;
 
+                    case R.id.nav_news:
+                        startActivity(new Intent(MainActivity.this, News.class));
+                        break;
+
+
                     case R.id.nav_Logout:
                         FirebaseAuth.getInstance().signOut();
                         finish();

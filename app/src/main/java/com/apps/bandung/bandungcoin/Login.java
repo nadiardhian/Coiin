@@ -38,7 +38,7 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 
 public class Login extends AppCompatActivity {
-    private EditText emailLogin, passwordLogin;
+    private EditText emailLogin,passwordLogin ;
     private String TAG = "Login";
     private static final int RC_SIGN_IN = 101;
     private LoginButton loginButton;
@@ -55,10 +55,9 @@ public class Login extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-
         FacebookSdk.sdkInitialize(getApplicationContext());
-        AppEventsLogger.activateApp(this);
+        AppEventsLogger.activateApp(this);;
+        setContentView(R.layout.activity_login);
         accessToken = AccessToken.getCurrentAccessToken();
 
         progressDialog =  new ProgressDialog(Login.this);
@@ -97,7 +96,7 @@ public class Login extends AppCompatActivity {
                 Intent intent = new Intent(Login.this, MainActivity.class);
                 finish();
                 startActivity(intent);
-                Toast.makeText(Login.this, "Welcome to the Dark Side", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Login.this, "Welcome to College Information", Toast.LENGTH_SHORT).show();
                 progressDialog.dismiss();
             }
 
